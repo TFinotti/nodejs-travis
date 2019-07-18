@@ -1,0 +1,45 @@
+{
+  "name": "expressjs",
+  "version": "1.0.0",
+  "description": "Project to exercise the use of ExpressJS",
+  "main": "app.js",
+  "dependencies": {
+    "@types/mongodb": "^3.1.28",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongodb": "^3.2.7",
+    "nodemon": "^1.19.1",
+    "popper.js": "^1.15.0",
+    "really-simple-router": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/express": "^4.17.0",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -r ts-node/register src/**/*.test.ts",
+    "build": "./node_modules/.bin/tsc -p tsconfig.json",
+    "start": "./node_modules/.bin/ts-node src/app.ts",
+    "dev": "./node_modules/.bin/nodemon "
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/TFinotti/nodejs-project.git"
+  },
+  "keywords": [
+    "expressjs",
+    "javascript",
+    "server"
+  ],
+  "author": "Tiago Franco Finotti",
+  "license": "ISC"
+}
